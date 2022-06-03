@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    border-bottom: 3px solid #D80032;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-width: 15%;
+}
+
+.right-column {
+    display: flex;
+    align-items: center;
+}
