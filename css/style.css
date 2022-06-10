@@ -1,26 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&display=swap');
+
 body {
     margin: 0;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 img {
     max-width: 100%;
 }
 
-.container {
+header {
     border-bottom: 3px solid #D80032;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .logo {
-    max-width: 15%;
+    max-width: 70px;
 }
 
-.right-column {
-    display: flex;
-    align-items: center;
+/* 
+.burger {
+    margin-left: 50px;
+}  */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu-burger a {
+    color: black;
+    font-size: 36px;
+    font-weight: 600;
 }
