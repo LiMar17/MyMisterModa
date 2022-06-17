@@ -31,8 +31,21 @@ a {
     text-decoration: none;
 }
 
+.menu-burger {
+    opacity: 0;
+    transition: all 0.5s;
+    position: absolute;
+    top: 250px;
+    width: 100%;
+}
+
 .menu-burger a {
     color: black;
     font-size: 36px;
     font-weight: 600;
+}
+
+.menu-burger.active {
+    opacity: 1;
+    top: 75px;
 }
